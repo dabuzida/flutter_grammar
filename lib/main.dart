@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'page_controller/i.dart';
 import 'test_switch.dart';
 
 void main() {
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.teal,
           centerTitle: true,
         ),
-        body: const TestSwitch(),
+        body: const I(),
+        // body: const TestSwitch(),
       ),
     );
   }
